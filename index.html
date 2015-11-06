@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wire Delta Paradise</title>
+    <meta http-equiv="Content-Type" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div class="form">
+        <!-- Form -->
+        <form name="form" action="thank-you-page/thank-you.html" method="post" onsubmit="return validate(this);">
+            <h2>Wire Delta Paradise Reservation Form</h2>
+            <!-- Table -->
+            <table>
+                <!--  User Name Text Box -->
+                <tr>
+                    <td>
+                        <p class="section">
+                            <label>Name</label>
+                        </p>
+                        <input type="text" name="Name" placeholder="User Name" id='txtUserName'>
+                    </td>
+                </tr>
+                <!-- End of User Name Text Box -->
+                <!--  Email Address Text Box -->
+                <tr>
+                    <td>
+                        <p class="section">
+                            <label>Email</label>
+                        </p>
+                        <input type="text" id='txtEmail' name="Email" placeholder="example@domain.com">
+                    </td>
+                </tr>
+                <!-- End of Email Address Text Box -->
+                <!-- Dynamic Drop Down List -->
+                <tr>
+                    <td>
+                        <div class="category_div" id="category_div">
+                            <label>Area of Occupation:</label>
+                            <select name="category" class="required-entry" id="category" onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+                                <option value="">Select
+                                Occupation</option>
+                                <option value="IT">IT Sector</option>
+                                <option value="Bank">Bank Sector</option>
+                                <option value="Business">Business Men</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="sub_category_div" id="sub_category_div">
+                            <label>Area of Expertise:</label>
+                            <select name="subcategory" id="subcategory">
+                                <option value="">Please Select Occupation</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <!-- End of Dynamic Drop Down List -->
+                <!-- Radio Box -->
+                <tr>
+                    <td>
+                        <br>
+                        <label>Room Preference:</label>
+                        <input type="radio" name="room" value="Standard"> Standard
+                        <input type="radio" name="room" value="Deluxe"> Deluxe
+                        <input type="radio" name="room" value="Suite"> Suite
+                    </td>
+                </tr>
+                <!-- End of Radio Box -->
+                <!-- Select List -->
+                <tr>
+                    <td>
+                        <fieldset>
+                            <label>Check-in Time:</label>
+                            <select id="checkin">
+                                <option value="">--Select--</option>
+                                <option value="01">Morning</option>
+                                <option value="02">Afternoon</option>
+                                <option value="03">Evening</option>
+                            </select>
+                            <label>Check-out Time:</label>
+                            <select id="checkout">
+                                <option value="">--Select--</option>
+                                <option value="01">Morning</option>
+                                <option value="02">Afternoon</option>
+                                <option value="03">Evening</option>
+                            </select>
+                        </fieldset>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <label>Adults:</label>
+                            <select id="adults">
+                                <option value="">--Select--</option>
+                                <option value="01"> 1 </option>
+                                <option value="02"> 2 </option>
+                                <option value="03"> 3 </option>
+                                <option value="04"> 4 </option>
+                            </select>
+                            <label>Childern:</label>
+                            <select id="childern">
+                                <option value="">--Select--</option>
+                                <option value="01"> 0 </option>
+                                <option value="02"> 1 </option>
+                                <option value="03"> 2 </option>
+                                <option value="04"> 3 </option>
+                            </select>
+                        </fieldset>
+                    </td>
+                </tr>
+                <!-- End of Select List -->
+                <!-- Checkbox -->
+                <tr>
+                    <td>
+                        <br>
+                        <fieldset>
+                            <label>Payment:</label>
+                            <input type="checkbox" id="chkBox1" onClick="toggle(this);" /> Cash
+                            <input type="checkbox" id="chkBox2" onClick="toggle(this);" /> Credit Card
+                            <br>
+                        </fieldset>
+                    </td>
+                </tr>
+                <!-- End of Checkbox -->
+                <!-- Textarea -->
+                <tr>
+                    <td>
+                        <p class="section">
+                            <label>Special Requests</label>
+                        </p>
+                        <textarea cols="50" rows="4" name="request" id="txtrequest"></textarea>
+                    </td>
+                </tr>
+                <!-- End of Textarea -->
+                <!-- Submit and Reset Button -->
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+                <!-- End of Submit and Reset Button -->
+            </table>
+            <!-- End of Table -->
+        </form>
+        <!-- End of Form -->
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

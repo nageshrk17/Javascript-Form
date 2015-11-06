@@ -1,0 +1,186 @@
+body {
+    background: url("../images/background-img.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.form {
+    background: transparent;
+    background: url("../images/form-background.png");
+    background-size: cover;
+    width: 550px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 20px
+}
+
+.form h2 {
+    margin-left: 20px;
+}
+
+.form p.section {
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.form input[type="text"],
+input[type="email"] {
+    width: 400px;
+}
+
+input[type=checkbox] {
+    outline: 2px solid black;
+    color: black;
+}
+
+#adults,
+#childern {
+    width: 80px;
+}
+
+.form input,
+textarea {
+    background-color: #fff;
+    border: 1px solid rgba(122, 192, 0, 0.15);
+    padding: 7px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.form input:focus,
+textarea:focus {
+    border: 1px solid #ff5400;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+input[type=submit],
+input[type=reset] {
+    width: 120px;
+    background: #FF9800;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #999;
+    text-shadow: 0 -1px 1px #222;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #2a78f6;
+}
+
+input[type=submit] {
+    margin-left: 120px;
+}
+
+#b1 {
+    background: url("../images/hotel-background-img/receptionist.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b2 {
+    background: url("../images/hotel-background-img/corridor.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b3 {
+    background: url("../images/hotel-background-img/standard-room.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b4 {
+    background: url("../images/hotel-background-img/deluxe-room.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b5 {
+    background: url("../images/hotel-background-img/suite-room.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b6 {
+    background: url("../images/hotel-background-img/bathroom.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b7 {
+    background: url("../images/hotel-background-img/inside-pool.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b8 {
+    background: url("../images/hotel-background-img/outside-pool.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b9 {
+    background: url("../images/hotel-background-img/dining-hall.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b10 {
+    background: url("../images/hotel-background-img/kitchen.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#b11 {
+    background: url("../images/hotel-background-img/outside-view.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
